@@ -105,6 +105,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(TargetName)x64</TargetName>
+    <IncludePath>E:\CppProject\ScyllaHideForIDA9.0\idasdk90\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\CppProject\ScyllaHideForIDA9.0\idasdk90\lib\x64_win_vc_64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
